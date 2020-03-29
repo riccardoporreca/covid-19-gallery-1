@@ -36,6 +36,14 @@ gallery:
         htmltools::hr()
     )}}
   include_after: |
+    <script src="https://utteranc.es/client.js"
+        repo="riccardoporreca/covid-19-gallery-1"
+        issue-term="pathname"
+        label="*✨💬✨*"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
     <hr/><div class="row">
       <span>
         &copy; {{format(Sys.Date(), "%Y")}}
